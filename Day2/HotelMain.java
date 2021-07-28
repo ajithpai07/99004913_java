@@ -83,11 +83,10 @@ class SuiteACRoom extends HotelRoom{
 
 public class HotelMain{ 
     public static void main(String[] args) {
-        System.out.println("Afrid");
         String hotelName;
         int numberOfSqFeet;
 
-        System.out.println("Hotel Tariff Calculator\n1. Deluxe Room \n2. Deluxe AC \nRoom3. Suite AC Room\nSelect Room Type:");
+        System.out.println("Hotel Tariff Calculator\n1. Deluxe Room \n2. Deluxe AC Room \n3. Suite AC Room\nSelect Room Type:");
         
         Scanner sc = new Scanner(System.in);
         final int chooice = sc.nextInt();
